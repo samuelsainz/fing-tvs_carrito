@@ -60,7 +60,7 @@ class Carrito implements ICarrito {
             precioTotal = item.getProducto().getPrecio();
 
         return precioTotal;
-	}
+    }
 
 	public double obtenerSubtotal(String s) {
 		// TODO Auto-generated method stub
